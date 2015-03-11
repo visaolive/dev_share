@@ -26,12 +26,8 @@ class RelatedContactsSubpanel extends Link2
     }
     /* 
     */
-    /*
 	public function getRelatedModuleName()
-	{
-        return 'Contacts';
-    }
-	*/
+	{return 'Contacts';}
 	/*
 	*/	
     public function buildJoinSugarQuery($sugar_query, $options = array())
